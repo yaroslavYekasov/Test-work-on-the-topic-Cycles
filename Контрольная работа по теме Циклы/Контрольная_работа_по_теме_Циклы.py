@@ -30,8 +30,8 @@ print()
 print("2")
 print()
 
-nch=int(input("vvedite chislo> "))
-st=int(input("v kakoi steoeni eto chislo> "))
+nch=int(input("sista arv> "))
+st=int(input("sisesta arvu aste> "))
 nch1 =stn= 1
 while stn<nch:
     stn=nch1**st
@@ -44,7 +44,7 @@ print()
 print("3")
 print()
 
-print("otsenki po fizike")
+print("füüsika hinded")
 u=randint(1,30)
 nomer=1
 suma=0

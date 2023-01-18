@@ -30,15 +30,18 @@ print()
 print("2")
 print()
 
-nch=int(input("sista arv> "))
-st=int(input("sisesta arvu aste> "))
-nch1 =stn= 1
-while stn<nch:
-    stn=nch1**st
-    if stn>nch:
-        break
-    print(nch1,"^",st,"=",stn)
-    nch1 +=1
+try:
+    nch=int(input("sista arv> "))
+    st=int(input("sisesta arvu aste> "))
+    nch1 =stn= 1
+    while stn<nch:
+        stn=nch1**st
+        if stn>nch:
+            break
+        print(nch1,"^",st,"=",stn)
+        nch1 +=1
+except:
+    print("vale andmetüüp")
 
 print()
 print("3")
